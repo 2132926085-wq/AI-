@@ -1,0 +1,213 @@
+{
+    "type": "LIDAR_ANNOTATION_V2",
+    "attributes": {
+        "manifest_url": "{{{manifest_url}}}",
+        "axes_transform_matrix": "UPPER_Z_RIGHT",
+        "revert_x": false,
+        "revert_y": false,
+        "revert_z": false,
+        "numbering_mode": "by_category",
+        "export_auto_project_shapes": true,
+        "sum_auto_project_shapes": false,
+        "camera_names": "",
+        "fisheye_fov_expansion": "",
+        "frame_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiIzROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6IjNE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0=",
+        "image_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiIyROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6IjJE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0=",
+        "rotate_mode": "yaw",
+        "rotate_mode_rectangle": "yaw",
+        "layout": "EXPAND_VIEW",
+        "label_mode_2d": "all",
+        "label_mode_3d": "all",
+        "label_style": "default",
+        "label_format": "compressed",
+        "attributes_mode": "hide",
+        "show_vertex_number": false,
+        "show_vertex": false,
+        "point_attributes_mode": "always",
+        "relationships": "",
+        "point_label_item": [
+            "attribute-keys",
+            "attribute-values"
+        ],
+        "show_grid": true,
+        "camera_type": "PerspectiveCamera",
+        "scene_origin": "{\"x\":0,\"y\":0,\"z\":0}",
+        "camera_polar_limit": 100,
+        "change_points_color": false,
+        "calc_point_count": false,
+        "use_interpolate": true,
+        "interpolate_default_on": true,
+        "boundaries": [],
+        "submit_check": true,
+        "attr_valid_check": true,
+        "attr_valid_check_submit": true,
+        "frame_attr_valid_check": true,
+        "frame_attr_valid_check_submit": true,
+        "item_count_check": true,
+        "item_count_check_submit": true,
+        "size_consistency_check": true,
+        "size_consistency_check_submit": false,
+        "cube_point_check": 0,
+        "cube_point_check_submit": false,
+        "unlabeled_point_check": false,
+        "unlabeled_point_check_submit": false,
+        "skip_check_for_invalid_frame": true,
+        "script_check": false,
+        "script_check_timeout": 10,
+        "overflow_boundary_allowed": true,
+        "overflow_boundary_operation": "truncation",
+        "project_polyline_in_boundary": false
+    },
+    "ontology": [
+        {
+            "key": "DJMSVbkq8VT8NjzrDr_sc",
+            "class_name": "drivable_surface",
+            "display_color": "#880dbc",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#f9898b",
+                    "key": "hC-9rchAjleTA-mDhyuyV",
+                    "count": null,
+                    "tools": [
+                        {
+                            "type": "POLYGON3",
+                            "project_children": [],
+                            "auto_snap": false,
+                            "similar_rectangle": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "5_E-BPuFifS54v7Cv2zPd",
+            "class_name": "line",
+            "display_color": "#a02304",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#ff7298",
+                    "key": "Qyo2GCnXwbA0z2XdTv6Wh",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "POLYLINE3",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#ff7298",
+                                    "all_cameras": "all",
+                                    "key": "8G8YwYJeQUokv_rG0y4Jy",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "PROJECT_BY_ADD",
+                                            "type": "line"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "auto_snap": true,
+                            "show_direction": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "AGxaS1bofV2af2uDMvuT5",
+            "class_name": "pavement",
+            "display_color": "#4ac9a1",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#b0bc00",
+                    "key": "Jzh_onuSlzlkFVPpg-lvy",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "POLYGON3",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#b0bc00",
+                                    "all_cameras": "all",
+                                    "key": "nQfPBdTIB3coJIpcrcceG",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "AUTO_PROJECT",
+                                            "type": "polygon"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "auto_snap": true,
+                            "similar_rectangle": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "lwmXp_Ih9wtlF9G-zQq4U",
+            "class_name": "traffic_light",
+            "display_color": "#a2bef9",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#bff791",
+                    "key": "i8ovbP5en1OsCBNNhruFJ",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "CUBE",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#bff791",
+                                    "all_cameras": "all",
+                                    "key": "QsHw9Yb-2oq6c8ya0dMgU",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "AUTO_PROJECT",
+                                            "type": "rectangle"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "default_size": [
+                                {
+                                    "w": 1.8,
+                                    "l": 4.6,
+                                    "h": 1.5
+                                }
+                            ],
+                            "max_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "min_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "default_create_method": "drag",
+                            "valid_threshold_frames": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "questionType": [
+        "Redundant object",
+        "Missed object",
+        "Wrong category",
+        "Wrong attribute",
+        "Not fit"
+    ]
+}

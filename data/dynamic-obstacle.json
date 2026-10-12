@@ -1,0 +1,282 @@
+{
+    "type": "LIDAR_ANNOTATION_V2",
+    "attributes": {
+        "manifest_url": "{{{manifest_url}}}",
+        "axes_transform_matrix": "UPPER_Z_RIGHT",
+        "revert_x": false,
+        "revert_y": false,
+        "revert_z": false,
+        "numbering_mode": "by_category",
+        "export_auto_project_shapes": true,
+        "sum_auto_project_shapes": false,
+        "camera_names": "",
+        "fisheye_fov_expansion": "",
+        "rotate_mode": "yaw",
+        "rotate_mode_rectangle": "yaw",
+        "layout": "EXPAND_VIEW",
+        "label_mode_2d": "all",
+        "label_mode_3d": "all",
+        "label_style": "default",
+        "label_format": "compressed",
+        "attributes_mode": "hide",
+        "show_vertex": false,
+        "show_vertex_number": false,
+        "point_attributes_mode": "always",
+        "point_label_item": [
+            "attribute-keys",
+            "attribute-values"
+        ],
+        "show_grid": true,
+        "camera_type": "PerspectiveCamera",
+        "scene_origin": "{\"x\":0,\"y\":0,\"z\":0}",
+        "camera_polar_limit": 100,
+        "change_points_color": false,
+        "calc_point_count": false,
+        "use_interpolate": true,
+        "interpolate_default_on": true,
+        "boundaries": [],
+        "submit_check": true,
+        "script_check": false,
+        "script_check_timeout": 10,
+        "attr_valid_check": true,
+        "attr_valid_check_submit": true,
+        "frame_attr_valid_check": true,
+        "frame_attr_valid_check_submit": true,
+        "item_count_check": true,
+        "item_count_check_submit": true,
+        "size_consistency_check": true,
+        "size_consistency_check_submit": false,
+        "cube_point_check": 0,
+        "cube_point_check_submit": false,
+        "unlabeled_point_check": false,
+        "unlabeled_point_check_submit": false,
+        "overflow_boundary_allowed": true,
+        "overflow_boundary_operation": "truncation",
+        "project_polyline_in_boundary": false,
+        "skip_check_for_invalid_frame": true,
+        "relationships": "",
+        "frame_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiIzROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6IjNE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0=",
+        "image_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiIyROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6IjJE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0="
+    },
+    "ontology": [
+        {
+            "key": "9ab0UGquONWWBMoOpJ6J6",
+            "class_name": "car",
+            "display_color": "#e2417c",
+            "label_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiLniankvZPpnZnmgIHlsZ7mgKciLCJ0eXBlIjoiUkFESU8iLCJ2YWx1ZVR5cGUiOiJzdHJpbmciLCJ2aXNpYmxlIjp0cnVlLCJyZXF1aXJlZCI6dHJ1ZSwicmVhZG9ubHkiOmZhbHNlLCJvcHRpb25zIjpbeyJ2YWx1ZSI6IjEifSx7InZhbHVlIjoiMiJ9XSwib3B0aW9uU2VhcmNoYWJsZSI6ZmFsc2UsIm9wdGlvbkZvbGRhYmxlIjpmYWxzZX1dLCJncmFwaCI6W3siZmllbGQiOiLniankvZPpnZnmgIHlsZ7mgKcifV0sImNvbmRpdGlvbnMiOltdLCJlZmZlY3RzIjpbXSwicnVsZXMiOltdfQ==",
+            "label_config_dynamic": "eyJmaWVsZHMiOlt7Im5hbWUiOiLniankvZPliqjmgIHlsZ7mgKciLCJ0eXBlIjoiUkFESU8iLCJ2YWx1ZVR5cGUiOiJzdHJpbmciLCJ2aXNpYmxlIjp0cnVlLCJyZXF1aXJlZCI6dHJ1ZSwicmVhZG9ubHkiOmZhbHNlLCJvcHRpb25zIjpbeyJ2YWx1ZSI6IjEifSx7InZhbHVlIjoiMiJ9XSwib3B0aW9uU2VhcmNoYWJsZSI6ZmFsc2UsIm9wdGlvbkZvbGRhYmxlIjpmYWxzZX1dLCJncmFwaCI6W3siZmllbGQiOiLniankvZPliqjmgIHlsZ7mgKcifV0sImNvbmRpdGlvbnMiOltdLCJlZmZlY3RzIjpbXSwicnVsZXMiOltdfQ==",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#ffd9c6",
+                    "label_config_dynamic": "eyJmaWVsZHMiOlt7Im5hbWUiOiJ2aXNpYmxlIiwidHlwZSI6IlJBRElPIiwidmFsdWVUeXBlIjoic3RyaW5nIiwidmlzaWJsZSI6dHJ1ZSwicmVxdWlyZWQiOnRydWUsInJlYWRvbmx5IjpmYWxzZSwib3B0aW9ucyI6W3sidmFsdWUiOiJ2aXNpYmxlIn0seyJ2YWx1ZSI6ImludmlzaWJsZSJ9XSwib3B0aW9uU2VhcmNoYWJsZSI6ZmFsc2UsIm9wdGlvbkZvbGRhYmxlIjpmYWxzZX1dLCJncmFwaCI6W3siZmllbGQiOiJ2aXNpYmxlIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXSwic2l6ZSI6ImRlZmF1bHQifQ==",
+                    "key": "kBmcCLXLbLkFO3CeBbdWF",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "CUBE",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#ffd9c6",
+                                    "all_cameras": "all",
+                                    "label_config_dynamic": "eyJmaWVsZHMiOlt7Im5hbWUiOiJvY2NsdXNpb24iLCJsYWJlbCI6IiIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsImRlZmF1bHRWYWx1ZSI6IjAiLCJvcHRpb25zIjpbeyJ2YWx1ZSI6IjAiLCJsYWJlbCI6Im5vIG9jY2x1c2lvbiJ9LHsidmFsdWUiOiIxIiwibGFiZWwiOiI8IDUwJSJ9LHsidmFsdWUiOiIyIiwibGFiZWwiOiLiiaUgNTAlIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfSx7Im5hbWUiOiJ0cnVuY2F0aW9uIiwibGFiZWwiOiIiLCJ0eXBlIjoiUkFESU8iLCJ2YWx1ZVR5cGUiOiJzdHJpbmciLCJ2aXNpYmxlIjp0cnVlLCJyZXF1aXJlZCI6dHJ1ZSwicmVhZG9ubHkiOmZhbHNlLCJkZWZhdWx0VmFsdWUiOiIwIiwib3B0aW9ucyI6W3sidmFsdWUiOiIwIiwibGFiZWwiOiJubyB0cnVuY2F0aW9uIn0seyJ2YWx1ZSI6IjEiLCJsYWJlbCI6IjwgNTAlIn0seyJ2YWx1ZSI6IjIiLCJsYWJlbCI6IuKJpSA1MCUifV0sIm9wdGlvblNlYXJjaGFibGUiOmZhbHNlLCJvcHRpb25Gb2xkYWJsZSI6ZmFsc2V9XSwiZ3JhcGgiOlt7ImZpZWxkIjoib2NjbHVzaW9uIn0seyJmaWVsZCI6InRydW5jYXRpb24ifV0sImNvbmRpdGlvbnMiOltdLCJlZmZlY3RzIjpbXSwicnVsZXMiOltdLCJzaXplIjoiZGVmYXVsdCJ9",
+                                    "key": "TnEeGiFh5lRQNHqL_vYGh",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "PROJECT_BY_ADD",
+                                            "type": "rectangle"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "default_size": [
+                                {
+                                    "w": 1.8,
+                                    "l": 4.6,
+                                    "h": 1.5
+                                }
+                            ],
+                            "max_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "min_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "default_create_method": "click",
+                            "valid_threshold_frames": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "49re7pn32sYo_mIJo05eR",
+            "class_name": "pedestrian",
+            "display_color": "#e8ad66",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#2dd844",
+                    "key": "g7C8Qpyt24Gz6kybVF-6G",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "CUBE",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#2dd844",
+                                    "all_cameras": "all",
+                                    "key": "yBdQK5eijQSnpB2HDYE4h",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "PROJECT_BY_ADD",
+                                            "type": "rectangle"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "default_size": [
+                                {
+                                    "w": 0.5,
+                                    "l": 0.5,
+                                    "h": 1.8
+                                }
+                            ],
+                            "max_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "min_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "default_create_method": "drag",
+                            "valid_threshold_frames": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "-qm43erFxv_y_jeG7dV_W",
+            "class_name": "bicycle",
+            "display_color": "#f70227",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#91a810",
+                    "key": "5hI75GD5nCYyvlyCOIKdm",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "CUBE",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#91a810",
+                                    "all_cameras": "all",
+                                    "key": "UWTEpYN27ycfXH570hJKH",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "PROJECT_BY_ADD",
+                                            "type": "rectangle"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "default_size": [
+                                {
+                                    "w": 0.5,
+                                    "l": 2.5,
+                                    "h": 1.2
+                                }
+                            ],
+                            "max_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "min_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "default_create_method": "drag",
+                            "valid_threshold_frames": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "t-diRYvuAdv3eE8oHkimp",
+            "class_name": "motorcycle",
+            "display_color": "#bc1019",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#db68ed",
+                    "key": "elor-ykctlYA_Bi_m2Ktl",
+                    "count": 1,
+                    "tools": [
+                        {
+                            "type": "CUBE",
+                            "project_children": [
+                                {
+                                    "name": "2D",
+                                    "display_color": "#db68ed",
+                                    "all_cameras": "all",
+                                    "key": "cJuI7JoCwZrZfWQPbsclj",
+                                    "count": 1,
+                                    "tools": [
+                                        {
+                                            "project_method": "PROJECT_BY_ADD",
+                                            "type": "rectangle"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "default_size": [
+                                {
+                                    "w": 0.8,
+                                    "l": 3,
+                                    "h": 1.5
+                                }
+                            ],
+                            "max_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "min_size": {
+                                "w": 1.8,
+                                "l": 4.6,
+                                "h": 1.5
+                            },
+                            "default_create_method": "drag",
+                            "valid_threshold_frames": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "questionType": [
+        "Redundant object",
+        "Missed object",
+        "Wrong category",
+        "Wrong attribute",
+        "Not fit"
+    ]
+}

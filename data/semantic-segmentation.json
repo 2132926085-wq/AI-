@@ -1,0 +1,166 @@
+{
+    "type": "LIDAR_ANNOTATION_V2",
+    "attributes": {
+        "manifest_url": "{{{manifest_url}}}",
+        "axes_transform_matrix": "UPPER_Z_RIGHT",
+        "revert_x": false,
+        "revert_y": false,
+        "revert_z": false,
+        "numbering_mode": "by_category",
+        "export_auto_project_shapes": true,
+        "sum_auto_project_shapes": false,
+        "camera_names": "",
+        "fisheye_fov_expansion": "",
+        "rotate_mode": "yaw",
+        "rotate_mode_rectangle": "yaw",
+        "layout": "EXPAND_VIEW",
+        "label_mode_2d": "all",
+        "label_mode_3d": "all",
+        "label_style": "default",
+        "label_format": "compressed",
+        "attributes_mode": "hide",
+        "show_vertex": false,
+        "show_vertex_number": false,
+        "point_attributes_mode": "always",
+        "point_label_item": [
+            "attribute-keys",
+            "attribute-values"
+        ],
+        "show_grid": true,
+        "camera_type": "PerspectiveCamera",
+        "scene_origin": "{\"x\":0,\"y\":0,\"z\":0}",
+        "camera_polar_limit": 100,
+        "change_points_color": false,
+        "calc_point_count": false,
+        "use_interpolate": true,
+        "interpolate_default_on": true,
+        "boundaries": [],
+        "submit_check": true,
+        "script_check": false,
+        "script_check_timeout": 10,
+        "attr_valid_check": true,
+        "attr_valid_check_submit": true,
+        "frame_attr_valid_check": true,
+        "frame_attr_valid_check_submit": true,
+        "item_count_check": true,
+        "item_count_check_submit": true,
+        "size_consistency_check": true,
+        "size_consistency_check_submit": false,
+        "cube_point_check": 0,
+        "cube_point_check_submit": false,
+        "unlabeled_point_check": false,
+        "unlabeled_point_check_submit": false,
+        "overflow_boundary_allowed": true,
+        "overflow_boundary_operation": "truncation",
+        "project_polyline_in_boundary": false,
+        "skip_check_for_invalid_frame": true,
+        "relationships": "",
+        "frame_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiLov5nmmK8zROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6Iui/meaYrzNE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0=",
+        "image_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiLov5nmmK8yROW4p+WxnuaApyIsInR5cGUiOiJSQURJTyIsInZhbHVlVHlwZSI6InN0cmluZyIsInZpc2libGUiOnRydWUsInJlcXVpcmVkIjp0cnVlLCJyZWFkb25seSI6ZmFsc2UsIm9wdGlvbnMiOlt7InZhbHVlIjoiMSJ9LHsidmFsdWUiOiIyIn1dLCJvcHRpb25TZWFyY2hhYmxlIjpmYWxzZSwib3B0aW9uRm9sZGFibGUiOmZhbHNlfV0sImdyYXBoIjpbeyJmaWVsZCI6Iui/meaYrzJE5bin5bGe5oCnIn1dLCJjb25kaXRpb25zIjpbXSwiZWZmZWN0cyI6W10sInJ1bGVzIjpbXX0="
+    },
+    "ontology": [
+        {
+            "key": "8MbHtWy4JiezcCtrm3_o6",
+            "class_name": "pavement",
+            "display_color": "#a02304",
+            "label_config": "eyJmaWVsZHMiOlt7Im5hbWUiOiLov5nmmK/niankvZPpnZnmgIHlsZ7mgKciLCJ0eXBlIjoiUkFESU8iLCJ2YWx1ZVR5cGUiOiJzdHJpbmciLCJ2aXNpYmxlIjp0cnVlLCJyZXF1aXJlZCI6dHJ1ZSwicmVhZG9ubHkiOmZhbHNlLCJvcHRpb25zIjpbeyJ2YWx1ZSI6IjEifSx7InZhbHVlIjoiMiJ9XSwib3B0aW9uU2VhcmNoYWJsZSI6ZmFsc2UsIm9wdGlvbkZvbGRhYmxlIjpmYWxzZX1dLCJncmFwaCI6W3siZmllbGQiOiLov5nmmK/niankvZPpnZnmgIHlsZ7mgKcifV0sImNvbmRpdGlvbnMiOltdLCJlZmZlY3RzIjpbXSwicnVsZXMiOltdfQ==",
+            "label_config_dynamic": "eyJmaWVsZHMiOlt7Im5hbWUiOiLov5nmmK/niankvZPliqjmgIHlsZ7mgKciLCJ0eXBlIjoiUkFESU8iLCJ2YWx1ZVR5cGUiOiJzdHJpbmciLCJ2aXNpYmxlIjp0cnVlLCJyZXF1aXJlZCI6dHJ1ZSwicmVhZG9ubHkiOmZhbHNlLCJvcHRpb25zIjpbeyJ2YWx1ZSI6IjEifSx7InZhbHVlIjoiMiJ9XSwib3B0aW9uU2VhcmNoYWJsZSI6ZmFsc2UsIm9wdGlvbkZvbGRhYmxlIjpmYWxzZX1dLCJncmFwaCI6W3siZmllbGQiOiLov5nmmK/niankvZPliqjmgIHlsZ7mgKcifV0sImNvbmRpdGlvbnMiOltdLCJlZmZlY3RzIjpbXSwicnVsZXMiOltdfQ==",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#ff7298",
+                    "key": "Fe4mLfqKesreHDhaH4-E7",
+                    "tools": [
+                        {
+                            "type": "POINTS",
+                            "project_children": [],
+                            "default_create_method": "paint"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "eY4VTXUcy9J3A7aLN1Rho",
+            "class_name": "vegetation",
+            "display_color": "#f9d5c0",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#f4d1a4",
+                    "key": "d0-G7yPiRTw2Sc6gCaOPY",
+                    "tools": [
+                        {
+                            "type": "POINTS",
+                            "project_children": [],
+                            "default_create_method": "paint"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "HqqfG-CmGHti6giMfcdYJ",
+            "class_name": "noise",
+            "display_color": "#4ff2bc",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#db4c0f",
+                    "key": "wcN8ZnjOgLjM2T-LeLqV9",
+                    "tools": [
+                        {
+                            "type": "POINTS",
+                            "project_children": [],
+                            "default_create_method": "paint"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "SzJlMhfnUv3p5ujFpg0Y1",
+            "class_name": "vehicle",
+            "display_color": "#1bd396",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#ffc4fa",
+                    "key": "kKMo5zY50rHSgjxUsopIK",
+                    "tools": [
+                        {
+                            "type": "POINTS",
+                            "project_children": [],
+                            "default_create_method": "paint"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "eOj_7RvQH44GSrIufNAv5",
+            "class_name": "ego",
+            "display_color": "#9cb6e5",
+            "children": [
+                {
+                    "name": "3D",
+                    "display_color": "#d34ed3",
+                    "key": "3elHmCljuyYP_PoFAzhST",
+                    "tools": [
+                        {
+                            "type": "POINTS",
+                            "project_children": [],
+                            "default_create_method": "paint"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "questionType": [
+        "Redundant point(s)",
+        "Missed point(s)",
+        "Wrong category",
+        "Wrong attribute"
+    ]
+}
